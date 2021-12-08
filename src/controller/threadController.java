@@ -45,3 +45,8 @@ public class threadController extends Thread {
 		
 	}
 }
+//A thread 1  bloqueia o recurso 1, a thread 2 bloqueia o recurso 2, 
+//posteriormente a thread 1 tenta acessar o recurso 2 e não consegue, 
+//e a thread 2 tenta acessar o recurso 1 e não consegue, 
+//caracterizando um deadlock de condição de espera circular,
+//no qual cada um está a espera de recurso retido pelo membro seguinte dessa cadeia.
